@@ -1,0 +1,103 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* General container */
+.auth-container,
+.wishlist-container,
+.orders-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/* Form Inputs */
+form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Button Style */
+form button,
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #27ae60;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+form button:hover,
+button:hover {
+  background-color: #219150;
+}
+
+/* Item Card */
+.wishlist-item,
+.order-item {
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+
+.wishlist-item h4,
+.order-item h4 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.wishlist-item p,
+.order-item p {
+  color: #666;
+  font-size: 14px;
+}
+
+.order-item ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.order-item li {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .auth-container,
+  .wishlist-container,
+  .orders-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  form input,
+  form button {
+    font-size: 15px;
+  }
+}

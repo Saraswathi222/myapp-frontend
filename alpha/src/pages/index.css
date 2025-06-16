@@ -1,0 +1,33 @@
+
+
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-container form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.auth-container form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e60023;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
